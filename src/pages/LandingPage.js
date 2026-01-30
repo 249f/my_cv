@@ -23,18 +23,38 @@ const LandingPage = () => {
                         </div>
                     </div>
 
-
-
                 </div>
 
 
 
             </div>
-            {/*/about section*/}
-            <div className='about'>
-                <p>
-                    hello im ali
-                </p>
+            {/*Projects section*/}
+            <div className='projects'>
+                <div className='projects-title'>
+                    <h1> Hands-on Experience </h1>
+                    <p> learned many things from publishing my projects to prudoction </p>
+                </div>
+
+                {/* projects cards */}
+                <div className='project-cards-holder'>
+
+                    <a href='https://amanak-sd.com'>
+                        <h1> ERB System </h1>
+                        <p>
+                            a fully functional warehouses management System
+
+                        </p>
+
+                    </a>
+
+                </div>
+
+
+
+
+
+
+
             </div>
 
         </div >

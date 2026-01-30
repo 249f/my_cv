@@ -76,3 +76,19 @@
     box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
     transition: 0.3s ease-in-out;
 }
+
+.project-cards-holder {
+    display: flex;
+    margin: 40px 30px;
+
+}
+
+.project-cards-holder h1 {
+    text-align: start;
+}
+
+.project-cards-holder a {
+
+    text-decoration: none;
+    color: #262626;
+}
