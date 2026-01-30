@@ -42,12 +42,21 @@
 
 .hero .hero-buttons button {
     padding: 10px 20px;
-    font-size: 16px;
-    background-color: rgba(165, 255, 247, 0.4);
+    font-size: 20px;
+    background-color: rgba(165, 255, 247, 0.187);
     border: 2px solid rgba(200, 0, 255, 0.76);
     border-radius: 25px;
     cursor: pointer;
-    font-family: "Audiowide", sans-serif;
+    font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.hero .hero-buttons button:hover {
+    background-color: rgba(200, 0, 255, 0.76);
+    color: #F0F9FF;
+    scale: 1.1;
+    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
+    transition: 0.3s ease-in-out;
 }
