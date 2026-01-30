@@ -113,4 +113,10 @@
     padding: 15px;
     border-radius: 15px;
     height: 400px;
+    width: 280px;
+}
+
+.project-cards-holder p {
+    text-align: start;
+    padding-top: 20px;
 }
