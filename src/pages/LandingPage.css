@@ -1,8 +1,9 @@
 .hero {
     text-align: center;
     height: calc(100vh - 150px);
-    background-color: #F0F9FF;
+    background-color: #cff5fb;
     display: flex;
+    color: #262626;
 
     padding: 150px 40px;
 
@@ -21,6 +22,21 @@
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.hero .hero-text h1::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(200, 0, 255, 0.76);
+    width: 140px;
+    height: 4px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(200, 0, 255, 0.76);
+
+
+
+
 }
 
 .hero .hero-text p {
