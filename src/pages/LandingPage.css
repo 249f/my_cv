@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     text-align: center;
     height: calc(100vh - 150px);
@@ -22,6 +27,7 @@
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-top: 55px;
 }
 
 .hero .hero-text h1::after {
@@ -41,6 +47,7 @@
 
 .hero .hero-text p {
     font-size: 24px;
+    padding-top: 30px;
 }
 
 .hero .buttons-holder {
@@ -77,9 +84,20 @@
     transition: 0.3s ease-in-out;
 }
 
+.projects {
+    background-color: #262626;
+    color: aliceblue;
+}
+
+.projects-title {
+
+    padding: 40px;
+}
+
 .project-cards-holder {
     display: flex;
-    margin: 40px 30px;
+    padding: 20px 60px;
+
 
 }
 
@@ -91,4 +109,8 @@
 
     text-decoration: none;
     color: #262626;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+    height: 400px;
 }
