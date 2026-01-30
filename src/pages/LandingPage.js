@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
+import MyPicture from '../assets/images/myPicture.jpg';
 
 const LandingPage = () => {
     return (
@@ -9,8 +10,25 @@ const LandingPage = () => {
             <Navbar />
             {/*hero section*/}
             <div className="hero">
-                <h1>Welcome to My Portfolio</h1>
-                <p>A collection of my work and experiences</p>
+
+                <img src={MyPicture} alt="ali" />
+                <div className="hero-text">
+                    <h1>ALi Abdellatif</h1>
+                    <p>Software Engineering Student with a real world hands-on experience</p>
+
+                    <div className='buttons-holder'>
+                        <div className="hero-buttons">
+                            <button>See Projects</button>
+                            <button>More Info</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
             </div>
             {/*/about section*/}
             <div className='about'>
@@ -19,7 +37,7 @@ const LandingPage = () => {
                 </p>
             </div>
 
-        </div>
+        </div >
 
     );
 

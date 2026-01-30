@@ -1,6 +1,53 @@
 .hero {
     text-align: center;
-    padding-top: 150px;
     height: calc(100vh - 150px);
-    background-color: #f6f6f6;
+    background-color: #F0F9FF;
+    display: flex;
+
+    padding: 150px 40px;
+
+}
+
+
+
+.hero img {
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+.hero .hero-text {
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero .hero-text p {
+    font-size: 24px;
+}
+
+.hero .buttons-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero .hero-buttons {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero .hero-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(165, 255, 247, 0.4);
+    border: 2px solid rgba(200, 0, 255, 0.76);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
