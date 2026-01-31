@@ -33,6 +33,7 @@
     font-weight: 400;
     font-style: normal;
     padding-top: 55px;
+    margin: auto;
 }
 
 .hero .hero-text h1::after {
@@ -72,7 +73,8 @@
 .hero .hero-buttons button {
     padding: 10px 20px;
     font-size: 20px;
-    background-color: rgba(165, 255, 247, 0.187);
+    background-color: rgba(0, 123, 255, 0.05);
+    backdrop-filter: blur(10px);
     border: 2px solid rgba(200, 0, 255, 0.76);
     border-radius: 25px;
     cursor: pointer;
@@ -94,7 +96,8 @@
 /*------------projects section------------*/
 
 .projects {
-    background: linear-gradient(123deg, #1b0021 -20%, #65007e 50%, #070009 100%);
+    /* background: linear-gradient(123deg, #1b0021 -20%, #65007e 50%, #070009 100%); */
+    background: linear-gradient(123deg, rgb(0, 85, 124) 0%, rgb(4, 0, 57) 50%, rgb(5, 2, 6)100%);
     color: aliceblue;
 
 }
