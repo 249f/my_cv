@@ -125,11 +125,12 @@
 
     text-decoration: none;
     color: #262626;
-    background: linear-gradient(123deg, #191919e1 -20%, #1c1c1c 50%, #0e0e0e 100%);
+    background: linear-gradient(123deg, rgba(0, 0, 0, 0.187) -20%, rgba(0, 0, 0, 0.187) 50%, rgba(38, 38, 38, 0.187) 100%);
     padding: 15px;
     border-radius: 15px;
     color: #e3e3e3;
-
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(200, 0, 255, 0.76);
     transition: 0.4s ease-out;
 
 
@@ -137,6 +138,7 @@
 
 .project-cards-holder a:hover {
     scale: 1.02;
+    border: 3px solid rgba(200, 0, 255, 0.76);
 
     transition: 0.4s ease-out;
     box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
@@ -183,7 +185,8 @@
     width: fit-content;
     height: fit-content;
     border-radius: 7px;
-    background-color: #0f0f0f;
+    background-color: rgba(0, 0, 0, 0.318);
+    backdrop-filter: blur(12px);
     border: 2px solid #c4c4c4;
     margin-bottom: 10px;
     padding: 10px;
