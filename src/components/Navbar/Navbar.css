@@ -86,3 +86,24 @@
     border: 2px solid #222222;
     transition: 0.3s ease-in-out;
 }
+
+
+/* responsive design */
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .button-holder button {
+        font-size: 1rem;
+    }
+
+    .navbar .logo-holder img {
+        height: 40px;
+    }
+
+    .navbar {
+        height: 70px;
+    }
+}

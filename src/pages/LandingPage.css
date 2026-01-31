@@ -20,6 +20,7 @@
     border-radius: 100%;
     width: 400px;
     height: 400px;
+
 }
 
 .hero .hero-text {
@@ -165,6 +166,36 @@
 /* responsive design */
 
 @media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 200px;
+        height: calc(100vh - 300px);
+    }
+
+    .hero .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero img {
+        width: 200px;
+        height: 200px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .hero .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
     .project-cards-holder {
         grid-template-columns: 1fr;
         /* Switch to 1 column */
