@@ -54,7 +54,7 @@ const LandingPage = () => {
                                 <li> <strong> Role-Based Access Control : </strong> multi-tiered authorization system defining specific permissions for Admins, Warehouse Managers, and Sales Staff. to ensure data security and operational accountability.</li>
                                 <li> <strong> Reliability : </strong> Implemented Atomic Transactions to prevent partial data entries or ghost stock issues, ensures that if a connection fails mid transaction the data remains consistent.</li>
                                 <li> <strong> Optimized Performance : </strong> Utilized smart caching and lightweight query structures to minimize bandwidth consumption, delivering smooth user experience even on unstable networks.</li>
-                                <li> <strong> Bulk Operation Engine : </strong> Developed a specialized sales module capable of processing large-scale updates—such as Global Percentage-Based Price Adjustments—efficiently and reliably.</li>
+                                <li> <strong> Bulk Operations : </strong> Developed a specialized sales module capable of processing large scale updates, such as Global Percentage based Price Adjustments, efficiently and reliably.</li>
                             </ul>
                         </p>
 
