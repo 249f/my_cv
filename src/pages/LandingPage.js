@@ -34,7 +34,7 @@ const LandingPage = () => {
             <div className='projects'>
                 <div className='projects-title'>
                     <h1> Hands-on Experience </h1>
-                    <p> learned many things from publishing my projects to production </p>
+                    <p> learned many things from publishing projects to production </p>
                 </div>
 
                 {/* projects cards */}
@@ -72,7 +72,7 @@ const LandingPage = () => {
                     </a>
 
                     <a href='https://google.com' className='d3-card'>
-                        <h1> Coming Soon </h1>
+                        <h1> Under Development </h1>
                         <p>
 
                         </p>
@@ -80,7 +80,7 @@ const LandingPage = () => {
                     </a>
 
                     <a href='https://google.com' className='d4-card'>
-                        <h1> Coming Soon </h1>
+                        <h1> Under Development </h1>
                         <p>
 
                         </p>
