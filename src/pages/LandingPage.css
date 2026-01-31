@@ -5,6 +5,8 @@
     -webkit-user-drag: none;
 }
 
+/*------------hero section------------*/
+
 .hero {
     text-align: center;
     height: calc(100vh - 150px);
@@ -89,8 +91,10 @@
     transition: 0.3s ease-in-out;
 }
 
+/*------------projects section------------*/
+
 .projects {
-    background-color: #262626;
+    background: linear-gradient(123deg, #1b0021 -20%, #65007e 50%, #070009 100%);
     color: aliceblue;
 
 }
@@ -184,6 +188,8 @@
     margin-bottom: 10px;
     padding: 10px;
 }
+
+/*------------skills section------------*/
 
 .skills {
     background-color: #e2e2e2;
