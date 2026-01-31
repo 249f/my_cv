@@ -100,8 +100,17 @@ const LandingPage = () => {
 
             {/* skills section */}
             <div className='skills'>
-                <h1>Skills</h1>
-                <p>Skills</p>
+                <div className='skills-title'>
+                    <h1>Skills</h1>
+                    <p></p>
+                </div>
+
+
+                <div className='skills-content'>
+
+                    <h1>Deep thinking</h1>
+
+                </div>
             </div>
 
 
