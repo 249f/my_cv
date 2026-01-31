@@ -47,7 +47,7 @@ const LandingPage = () => {
 
                         <h1> ERP System </h1>
                         <p>
-                            built a fully functional warehouses management System from A to Z using React.js as the front-end and Appwrite Cloud platform as the back-end, the main foucas was on the performance and the user experience, as long it's hard to build a stable System working in such unstable internet connection as we have in sudan, so optimized queries and Smart caching is what i focused on, ensuring a secure scalable System.
+                            built a fully functional warehouses management System from A to Z using React.js as the front-end and Appwrite Cloud platform as the back-end, the main focus was on the performance and the user experience, as long it's hard to build a stable System working in such unstable internet connection as we have in sudan, so optimized queries and Smart caching is what i focused on, ensuring a secure scalable System.
 
                         </p>
 
