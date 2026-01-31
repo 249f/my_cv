@@ -45,10 +45,18 @@ const LandingPage = () => {
                             <Building size={50} />
                         </div>
 
-                        <h1> ERP System </h1>
+                        <h1> Warehouse Management Ecosystem </h1>
                         <p>
-                            built a fully functional warehouses management System from A to Z using React.js as the front-end and Appwrite Cloud platform as the back-end, the main focus was on the performance and the user experience, as long it's hard to build a stable System working in such unstable internet connection as we have in sudan, so optimized queries and Smart caching is what i focused on, ensuring a secure scalable System.
-
+                            Developed an end-to-end Warehouse Management and Sales Ecosystem designed for reliability in regions with unstable network infrastructure. The system was architected to handle complex inventory movements while maintaining 100% data integrity during connection drops.
+                        </p>
+                        <p>
+                            <ul>
+                                <li> <strong> Role-Based Access Control : </strong> multi-tiered authorization system defining specific permissions for Admins, Warehouse Managers, and Sales Staff. to ensure data security and operational accountability.</li>
+                                <li> <strong> Reliability : </strong> Implemented Atomic Transactions to prevent partial data entries or ghost stock issues, ensures that if a connection fails mid transaction the data remains consistent.</li>
+                                <li> <strong> Optimized Performance : </strong> Utilized smart caching and lightweight query structures to minimize bandwidth consumption, delivering a high-speed UX even on low-bandwidth networks.</li>
+                                <li> <strong> Bulk Operation Engine : </strong> Developed a specialized sales module capable of processing large-scale updates—such as Global Percentage-Based Price Adjustments—efficiently and reliably.</li>
+                                <li> <strong> Automated Financial Intelligence : </strong> Architected a dual-layer reporting system for precise Daily and Monthly analytics, maintaining perfect ledger accuracy between the Sales Terminal and the Warehouse core.</li>
+                            </ul>
                         </p>
 
                     </a>
