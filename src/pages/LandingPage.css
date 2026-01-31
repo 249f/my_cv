@@ -6,7 +6,7 @@
 .hero {
     text-align: center;
     height: calc(100vh - 150px);
-    background-color: #cff5fb;
+    background: linear-gradient(200deg, #ff00d99d 0%, #E0F2FE 50%, #4db8ff 100%);
     display: flex;
     color: #262626;
 
@@ -87,6 +87,7 @@
 .projects {
     background-color: #262626;
     color: aliceblue;
+
 }
 
 .projects-title {
@@ -95,8 +96,14 @@
 }
 
 .project-cards-holder {
-    display: flex;
-    padding: 20px 60px;
+    display: grid;
+    /* Create 4 equal columns */
+    grid-template-columns: repeat(4, 1fr);
+    /* Automatically create rows as needed */
+    grid-auto-rows: 200px;
+    gap: 20px;
+    padding: 20px;
+
 
 
 }
@@ -109,14 +116,65 @@
 
     text-decoration: none;
     color: #262626;
-    background-color: aqua;
+    background: linear-gradient(123deg, #ff0095e1 -20%, #E0F2FE 50%, #4db8ff 100%);
     padding: 15px;
     border-radius: 15px;
-    height: 400px;
-    width: 280px;
+
+    transition: 0.4s ease-out;
+
+
+}
+
+.project-cards-holder a:hover {
+    scale: 1.02;
+    background: linear-gradient(123deg, #ff0095e1 0%, #E0F2FE 50%, #4db8ff 100%);
+    transition: 0.4s ease-out;
+    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
+
 }
 
 .project-cards-holder p {
     text-align: start;
+    font-weight: 500;
     padding-top: 20px;
+}
+
+.amanak-card {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.dbd-card {
+    grid-column: span 2;
+
+}
+
+.d3-card {
+    grid-row: span 2;
+}
+
+.d4-card {
+    grid-row: span 2;
+}
+
+
+
+
+
+
+/* responsive design */
+
+@media (max-width: 768px) {
+    .project-cards-holder {
+        grid-template-columns: 1fr;
+        /* Switch to 1 column */
+        grid-auto-rows: auto;
+        /* Let content define height */
+    }
+
+    /* Reset spans so they don't break the layout on mobile */
+    .project-cards-holder a {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 }
