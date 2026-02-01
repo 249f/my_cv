@@ -176,11 +176,12 @@
 }
 
 .Zaytooon-card {
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 .d4-card {
     grid-row: span 1;
+    grid-column: span 2;
 }
 
 .icon-holder {
@@ -261,6 +262,8 @@
 
 
 }
+
+
 
 
 

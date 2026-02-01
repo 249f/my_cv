@@ -3,9 +3,9 @@ import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
-import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact } from '@icons-pack/react-simple-icons';
+import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify } from '@icons-pack/react-simple-icons';
 
-const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />];
+const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiVercel size={50} />, <SiNetlify size={50} />, <SiReact size={50} />];
 
 
 const LandingPage = () => {
@@ -80,7 +80,7 @@ const LandingPage = () => {
                         </div>
                         <h1> Delivery System </h1>
                         <p>
-                            Been a part of a team that built a completed food Delivery System,
+                            Been a part of a team that built a completed food Delivery System, which includes a customer app, a driver app, and an admin panel.
                         </p>
 
                     </a>
@@ -151,16 +151,16 @@ const LandingPage = () => {
                             <p>Basic understanding with the ability to create simple and interactive web pages.</p>
                         </div>
                         <div className='skill-card'>
-                            <h1>Skill Name</h1>
-                            <p>Skill Description</p>
+                            <h1>Appwrite</h1>
+                            <p>Been a heavy user of appwrite for the past year, used it in multiple projects and have a deep understanding of its features and capabilities.</p>
                         </div>
                         <div className='skill-card'>
-                            <h1>Skill Name</h1>
-                            <p>Skill Description</p>
+                            <h1>React.js</h1>
+                            <p>Basic understanding with the ability to create simple and interactive web applications.</p>
                         </div>
                         <div className='skill-card'>
-                            <h1>Skill Name</h1>
-                            <p>Skill Description</p>
+                            <h1>Deployment</h1>
+                            <p>Have a good understanding of deploying web applications to different platforms such as Vercel, Netlify, and Appwrite hosting.</p>
                         </div>
 
 
