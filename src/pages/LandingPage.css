@@ -201,15 +201,23 @@
 .skills {
     background-color: #1c1c1c;
     color: rgb(205, 205, 205);
+    padding-top: 50px;
 
+}
+
+.skills-title {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 
 
 .skills-marquee-container {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     overflow: hidden;
     padding: 20px 0;
+
     /* Optional: Fades the text in/out at the edges */
     mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);

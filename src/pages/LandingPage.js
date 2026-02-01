@@ -3,8 +3,9 @@ import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building } from '@phosphor-icons/react';
+import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact } from '@icons-pack/react-simple-icons';
 
-const skills = ["HTML", "CSS", "JS", "React", "Node", "Python", "Java", "SQL", "Git", "GitHub"];
+const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />];
 
 
 const LandingPage = () => {
