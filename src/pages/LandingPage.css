@@ -170,13 +170,13 @@
 }
 
 .dbd-card {
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 2;
 
 }
 
-.d3-card {
-    grid-row: span 1;
+.Zaytooon-card {
+    grid-row: span 3;
 }
 
 .d4-card {
@@ -246,17 +246,26 @@
     white-space: nowrap;
 }
 
-/* The Loop Logic */
-@keyframes scroll-loop {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        /* Moves the track by exactly one full group of text */
-        transform: translateX(-50%);
-    }
+.skills-details {
+    display: flex;
 }
+
+.skill-card {
+    width: 200px;
+    height: 200px;
+    background-color: #1c1c1c;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+
+
+
+
+
 
 
 
@@ -309,5 +318,20 @@
     .project-cards-holder a {
         grid-column: span 1;
         grid-row: span 1;
+    }
+}
+
+
+/* ------- animations -------*/
+
+/* The Loop Logic */
+@keyframes scroll-loop {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        /* Moves the track by exactly one full group of text */
+        transform: translateX(-50%);
     }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
-import { CursorIcon, Building } from '@phosphor-icons/react';
+import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
 import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact } from '@icons-pack/react-simple-icons';
 
 const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />];
@@ -45,7 +45,7 @@ const LandingPage = () => {
 
                     <a href='https://amanak-sd.com' className='amanak-card'>
                         <div className='icon-holder'>
-                            <Building size={50} />
+                            <Building size={30} />
                         </div>
 
                         <h1> Warehouse Management Ecosystem </h1>
@@ -65,7 +65,7 @@ const LandingPage = () => {
 
                     <a href='https://design-by-drop.vercel.app' className='dbd-card'>
                         <div className='icon-holder'>
-                            <CursorIcon size={50} />
+                            <CursorIcon size={30} />
                         </div>
                         <h1> Design By Drop </h1>
                         <p>
@@ -74,10 +74,13 @@ const LandingPage = () => {
 
                     </a>
 
-                    <a href='https://google.com' className='d3-card'>
-                        <h1> Under Development </h1>
+                    <a href='https://google.com' className='Zaytooon-card'>
+                        <div className='icon-holder'>
+                            <MotorcycleIcon size={30} />
+                        </div>
+                        <h1> Delivery System </h1>
                         <p>
-
+                            Been a part of a team that built a completed food Delivery System,
                         </p>
 
                     </a>
@@ -129,6 +132,38 @@ const LandingPage = () => {
                             </div>
 
                         </div>
+                    </div>
+
+                    {/* skills  details */}
+
+                    <h1>Tech Stack :</h1>
+                    <div className='skills-details'>
+                        <div className='skill-card'>
+                            <h1>HTML</h1>
+                            <p>Advanced Level with deep understanding of syntax and accessibility.</p>
+                        </div>
+                        <div className='skill-card'>
+                            <h1>CSS</h1>
+                            <p>Good understanding with the ability to create complex and stunning layouts and animations, while keeping it responsive with different screen sizes.</p>
+                        </div>
+                        <div className='skill-card'>
+                            <h1>JavaScript</h1>
+                            <p>Basic understanding with the ability to create simple and interactive web pages.</p>
+                        </div>
+                        <div className='skill-card'>
+                            <h1>Skill Name</h1>
+                            <p>Skill Description</p>
+                        </div>
+                        <div className='skill-card'>
+                            <h1>Skill Name</h1>
+                            <p>Skill Description</p>
+                        </div>
+                        <div className='skill-card'>
+                            <h1>Skill Name</h1>
+                            <p>Skill Description</p>
+                        </div>
+
+
                     </div>
 
 
