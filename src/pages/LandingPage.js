@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building } from '@phosphor-icons/react';
 
+const skills = ["HTML", "CSS", "JS", "React", "Node", "Python", "Java", "SQL", "Git", "GitHub"];
+
 
 const LandingPage = () => {
     return (
@@ -108,7 +110,26 @@ const LandingPage = () => {
 
                 <div className='skills-content'>
 
-                    <h1>Deep thinking</h1>
+                    <div className="skills-marquee-container">
+                        <div className="skills-marquee-track">
+
+                            {/* Group 1 */}
+                            <div className="skills-text-holder">
+                                {skills.map((skill, index) => (
+                                    <h1 key={`g1-${index}`} className="skill-text">{skill}</h1>
+                                ))}
+                            </div>
+
+                            {/* Group 2 (The Loop Closer) */}
+                            <div className="skills-text-holder">
+                                {skills.map((skill, index) => (
+                                    <h1 key={`g2-${index}`} className="skill-text">{skill}</h1>
+                                ))}
+                            </div>
+
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
