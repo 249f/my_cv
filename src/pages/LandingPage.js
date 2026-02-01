@@ -151,17 +151,14 @@ const LandingPage = () => {
                             <p>Basic understanding with the ability to create simple and interactive web pages.</p>
                         </div>
                         <div className='skill-card'>
-                            <h1>Appwrite</h1>
-                            <p>Been a heavy user of appwrite for the past year, used it in multiple projects and have a deep understanding of its features and capabilities.</p>
-                        </div>
-                        <div className='skill-card'>
                             <h1>React.js</h1>
                             <p>Basic understanding with the ability to create simple and interactive web applications.</p>
                         </div>
                         <div className='skill-card'>
-                            <h1>Deployment</h1>
-                            <p>Have a good understanding of deploying web applications to different platforms such as Vercel, Netlify, and Appwrite hosting.</p>
+                            <h1>Appwrite</h1>
+                            <p>Been a heavy user of appwrite for the past year, used it in multiple projects and have a deep understanding of its features and capabilities.</p>
                         </div>
+
 
 
                     </div>

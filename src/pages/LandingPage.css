@@ -250,11 +250,12 @@
 .skills-details {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skill-card {
     width: 200px;
-    height: 200px;
+    height: 180px;
     background-color: #1c1c1c;
     border: 2px solid #c4c4c4;
     border-radius: 10px;
