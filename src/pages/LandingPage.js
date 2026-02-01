@@ -105,7 +105,7 @@ const LandingPage = () => {
             <div className='skills'>
                 <div className='skills-title'>
                     <h1>Skills</h1>
-                    <p></p>
+                    <p>improving and learning new things everyday</p>
                 </div>
 
 

@@ -104,6 +104,7 @@
 }
 
 .projects-title {
+    font-size: 22px;
 
     padding: 40px;
 }
@@ -206,8 +207,9 @@
 }
 
 .skills-title {
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 13px;
+
 }
 
 
@@ -240,12 +242,7 @@
 
 .skill-text {
     color: white;
-    font-size: 3rem;
-    /* Big, modern typography */
-    font-weight: 800;
-    text-transform: uppercase;
     margin: 0;
-    /* Keeps text from wrapping if the container is small */
     white-space: nowrap;
 }
 
