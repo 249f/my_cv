@@ -187,10 +187,15 @@ const LandingPage = () => {
                                 finding the best way to lower the expenses of the project and maximize the benefits.
                             </p>
                         </div>
-
                     </div>
+                </div>
+            </div>
 
-
+            {/* Contact section */}
+            <div className='contact'>
+                <div className='contact-title'>
+                    <h1>Contact</h1>
+                    <p>hi</p>
                 </div>
             </div>
 

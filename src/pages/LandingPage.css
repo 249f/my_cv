@@ -5,12 +5,13 @@
     -webkit-user-drag: none;
 }
 
+
 /*------------hero section------------*/
 
 .hero {
     text-align: center;
     height: calc(100vh - 150px);
-    background: linear-gradient(200deg, #121212bd 0%, #121212 50%, #2f2f2f 100%);
+    background: linear-gradient(200deg, #353535 0%, #121212 50%, #242424 100%);
     display: flex;
     color: #e3e3e3;
 
@@ -287,6 +288,14 @@
     width: 300px;
 
 }
+
+/*------------contact section------------*/
+.contact {
+    background-color: #1c1c1c;
+    color: rgb(205, 205, 205);
+
+}
+
 
 
 
