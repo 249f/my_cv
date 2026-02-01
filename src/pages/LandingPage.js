@@ -3,9 +3,9 @@ import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
-import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify } from '@icons-pack/react-simple-icons';
+import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit } from '@icons-pack/react-simple-icons';
 
-const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiVercel size={50} />, <SiNetlify size={50} />, <SiReact size={50} />];
+const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiVercel size={50} />, <SiNetlify size={50} />, <SiGit size={50} />];
 
 
 const LandingPage = () => {
@@ -163,6 +163,20 @@ const LandingPage = () => {
                             <p>Have a good understanding of deploying web applications to different platforms such as Vercel, Netlify, and Appwrite hosting.</p>
                         </div>
 
+
+                    </div>
+
+                    {/* Technical skills */}
+
+                    <h1>Technical Skills :</h1>
+                    <div className='technical-skills'>
+
+                        <div className='technical-skill-card'>
+                            <h2> Risk prediction :  </h2>
+                            <p>
+                                always thinking and analazing the risks of every decision i make, trying to minimize the risks and maximize the benefits.
+                            </p>
+                        </div>
 
                     </div>
 

@@ -249,6 +249,7 @@
 
 .skills-details {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-card {
@@ -262,6 +263,16 @@
 
 
 }
+
+.technical-skills {
+    display: flex;
+
+}
+
+.technical-skill-card {
+    text-align: start;
+}
+
 
 
 
