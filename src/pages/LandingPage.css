@@ -265,12 +265,18 @@
 
 }
 
+.title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 .technical-skills {
+
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
     padding: 40px;
+    flex-wrap: wrap;
 
 }
 
@@ -278,6 +284,8 @@
     text-align: start;
     border-left: 3px solid #c4c4c4;
     padding-left: 10px;
+    width: 300px;
+
 }
 
 

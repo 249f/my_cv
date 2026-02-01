@@ -136,7 +136,7 @@ const LandingPage = () => {
 
                     {/* skills  details */}
 
-                    <h1>Tech Stack :</h1>
+                    <h1 className='title'>Tech Stack :</h1>
                     <div className='skills-details'>
                         <div className='skill-card'>
                             <h1>HTML</h1>
@@ -165,7 +165,7 @@ const LandingPage = () => {
 
                     {/* Technical skills */}
 
-                    <h1>Technical Skills :</h1>
+                    <h1 className='title'>Technical Skills :</h1>
                     <div className='technical-skills'>
 
                         <div className='technical-skill-card'>
@@ -178,6 +178,13 @@ const LandingPage = () => {
                             <h2> Problem Solving :  </h2>
                             <p>
                                 always thinking and analazing the problems i face, trying to find the best solution to the problem.
+                            </p>
+                        </div>
+
+                        <div className='technical-skill-card'>
+                            <h2>Budget Utilization : </h2>
+                            <p>
+                                finding the best way to lower the expenses of the project and maximize the benefits.
                             </p>
                         </div>
 
