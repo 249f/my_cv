@@ -174,6 +174,12 @@ const LandingPage = () => {
                                 always thinking and analazing the risks of every decision i make, trying to minimize the risks and maximize the benefits.
                             </p>
                         </div>
+                        <div className='technical-skill-card'>
+                            <h2> Problem Solving :  </h2>
+                            <p>
+                                always thinking and analazing the problems i face, trying to find the best solution to the problem.
+                            </p>
+                        </div>
 
                     </div>
 
