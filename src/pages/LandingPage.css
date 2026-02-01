@@ -90,7 +90,7 @@
     background-color: rgba(200, 0, 255, 0.76);
     color: #F0F9FF;
     scale: 1.1;
-    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
+    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.415);
     transition: 0.3s ease-in-out;
 }
 
@@ -98,7 +98,7 @@
 
 .projects {
     /* background: linear-gradient(123deg, #1b0021 -20%, #65007e 50%, #070009 100%); */
-    background: linear-gradient(123deg, rgb(0, 85, 124) 0%, rgb(4, 0, 57) 50%, rgb(5, 2, 6)100%);
+    background: linear-gradient(123deg, rgb(0, 33, 48) 0%, rgb(4, 0, 57) 50%, rgb(5, 2, 6)100%);
     color: aliceblue;
 
 }
@@ -134,7 +134,7 @@
     border-radius: 15px;
     color: #e3e3e3;
     backdrop-filter: blur(12px);
-    border: 2px solid rgba(200, 0, 255, 0.76);
+    border: 2px solid rgba(200, 0, 255, 0.358);
     transition: 0.4s ease-out;
 
 
@@ -142,10 +142,10 @@
 
 .project-cards-holder a:hover {
     scale: 1.01;
-    border: 3px solid rgba(200, 0, 255, 0.76);
+    border: 3px solid rgba(200, 0, 255, 0.505);
 
     transition: 0.4s ease-out;
-    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.76);
+    box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.383);
 
 }
 
