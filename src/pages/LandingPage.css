@@ -394,6 +394,17 @@
     .skills-marquee-container {
         width: 100%;
     }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-content {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
