@@ -291,9 +291,42 @@
 
 /*------------contact section------------*/
 .contact {
-    background-color: #1c1c1c;
+    background-color: #121212;
     color: rgb(205, 205, 205);
+    text-align: start;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.contact-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-card {
+    text-decoration: none;
+    color: #c4c4c4;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+    text-shadow: 0 0 10px #ffffff;
+    color: #ffffff;
+
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -356,6 +389,10 @@
     .project-cards-holder a {
         grid-column: span 1;
         grid-row: span 1;
+    }
+
+    .skills-marquee-container {
+        width: 100%;
     }
 }
 

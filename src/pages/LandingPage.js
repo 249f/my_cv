@@ -3,7 +3,8 @@ import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
-import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit } from '@icons-pack/react-simple-icons';
+import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit, SiWhatsapp, SiGmail, SiFacebook, SiX, SiDiscord, SiTelegram, SiInstagram } from '@icons-pack/react-simple-icons';
+import { FaLinkedin } from 'react-icons/fa';
 
 const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiAppwrite size={50} />, <SiVercel size={50} />, <SiNetlify size={50} />, <SiGit size={50} />];
 
@@ -194,9 +195,45 @@ const LandingPage = () => {
             {/* Contact section */}
             <div className='contact'>
                 <div className='contact-title'>
-                    <h1>Contact</h1>
-                    <p>hi</p>
+                    <h1>Contact Me :</h1>
+                    <p>Feel free to get in touch with me on any socail media platform</p>
                 </div>
+                <div className='contact-content'>
+                    <a href="https://wa.me/249928283601" className='contact-card'>
+                        <SiWhatsapp size={45} />
+                        <h6>Whatsapp</h6>
+                    </a>
+                    <a href="mailto:al999aliko@gmail.com" className='contact-card'>
+                        <SiGmail size={45} />
+                        <h6>Email</h6>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ali-abdellatif-1482693a1" className='contact-card'>
+                        <FaLinkedin size={45} />
+                        <h6>Linkedin</h6>
+                    </a>
+
+                    <a href="https://www.facebook.com/249ff" className='contact-card'>
+                        <SiFacebook size={45} />
+                        <h6>Facebook</h6>
+                    </a>
+                    <a href="https://twitter.com/249_ff" className='contact-card'>
+                        <SiX size={45} />
+                        <h6>X</h6>
+                    </a>
+                    <a href="https://discord.gg/mSYMs58t" className='contact-card'>
+                        <SiDiscord size={45} />
+                        <h6>Discord</h6>
+                    </a>
+                    <a href="https://t.me/otp_ali" className='contact-card'>
+                        <SiTelegram size={45} />
+                        <h6>Telegram</h6>
+                    </a>
+                    <a href="https://www.instagram.com/otp_ali" className='contact-card'>
+                        <SiInstagram size={45} />
+                        <h6>Instagram</h6>
+                    </a>
+                </div>
+
             </div>
 
 
