@@ -215,6 +215,10 @@ const LandingPage = () => {
                         <FaLinkedin size={45} />
                         <h6>Linkedin</h6>
                     </a>
+                    <a href="https://github.com/249f" className='contact-card'>
+                        <SiGithub size={45} />
+                        <h6>Github</h6>
+                    </a>
 
                     <a href="https://www.facebook.com/249ff" className='contact-card'>
                         <SiFacebook size={45} />
