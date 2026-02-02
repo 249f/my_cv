@@ -24,7 +24,7 @@ const LandingPage = () => {
 
                     <div className='buttons-holder'>
                         <div className="hero-buttons">
-                            <a href='#projects'>
+                            <a href='#projects' className='see-projects-btn'>
                                 <button>See Projects</button>
                             </a>
                             <a href='#skills'>

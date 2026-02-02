@@ -32,6 +32,7 @@
     height: 400px;
     margin: auto;
 
+
 }
 
 .hero .hero-text {
@@ -93,11 +94,16 @@
 }
 
 .hero .hero-buttons button:hover {
-    background-color: rgba(200, 0, 255, 0.76);
+
     color: #F0F9FF;
     scale: 1.1;
     box-shadow: 0 8px 32px 0 rgba(200, 0, 255, 0.415);
     transition: 0.3s ease-in-out;
+}
+
+.hero .see-projects-btn button {
+    background-color: rgba(200, 0, 255, 0.76);
+
 }
 
 /*------------projects section------------*/
