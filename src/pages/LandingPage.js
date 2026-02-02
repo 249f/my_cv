@@ -12,7 +12,7 @@ const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50
 const LandingPage = () => {
     return (
 
-        <div className="landing-page">
+        <div className="landing-page" id='home'>
             <Navbar />
             {/*hero section*/}
             <div className="hero">
@@ -35,7 +35,7 @@ const LandingPage = () => {
 
             </div>
             {/*Projects section*/}
-            <div className='projects'>
+            <div className='projects' id='projects'>
                 <div className='projects-title'>
                     <h1> Hands-on Experience </h1>
                     <p> learned many things from publishing projects to production </p>
@@ -106,7 +106,7 @@ const LandingPage = () => {
 
 
             {/* skills section */}
-            <div className='skills'>
+            <div className='skills' id='skills'>
                 <div className='skills-title'>
                     <h1>Skills</h1>
                     <p>improving and learning new things everyday</p>
@@ -193,7 +193,7 @@ const LandingPage = () => {
             </div>
 
             {/* Contact section */}
-            <div className='contact'>
+            <div className='contact' id='contact'>
                 <div className='contact-title'>
                     <h1>Contact Me :</h1>
                     <p>Feel free to get in touch with me on any socail media platform</p>
