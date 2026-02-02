@@ -113,7 +113,7 @@ const LandingPage = () => {
             <div className='skills' id='skills'>
                 <div className='skills-title'>
                     <h1>Skills</h1>
-                    <p>improving and learning new things everyday</p>
+                    <p>improving and learning everyday</p>
                 </div>
 
 
@@ -170,26 +170,26 @@ const LandingPage = () => {
 
                     {/* Technical skills */}
 
-                    <h1 className='title'>Technical Skills :</h1>
-                    <div className='technical-skills'>
+                    <h1 className='title'>Soft Skills :</h1>
+                    <div className='soft-skills'>
 
-                        <div className='technical-skill-card'>
+                        <div className='soft-skill-card'>
                             <h2> Risk prediction :  </h2>
                             <p>
-                                always thinking and analazing the risks of every decision i make, trying to minimize the risks and maximize the benefits.
+                                I proactively analyze the impact of every architectural decision, ensuring system stability while minimizing potential technical debt.
                             </p>
                         </div>
-                        <div className='technical-skill-card'>
+                        <div className='soft-skill-card'>
                             <h2> Problem Solving :  </h2>
                             <p>
-                                always thinking and analazing the problems i face, trying to find the best solution to the problem.
+                                I approach complex challenges with a logic driven mindset, focusing on finding the most efficient, scalable solutions for the end user.
                             </p>
                         </div>
 
-                        <div className='technical-skill-card'>
+                        <div className='soft-skill-card'>
                             <h2>Budget Utilization : </h2>
                             <p>
-                                finding the best way to lower the expenses of the project and maximize the benefits.
+                                Finding the best way to lower the expenses of the project and maximize the benefits.
                             </p>
                         </div>
                     </div>
