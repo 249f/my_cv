@@ -115,7 +115,8 @@
     /* Create 4 equal columns */
     grid-template-columns: repeat(4, 1fr);
     /* Automatically create rows as needed */
-    grid-auto-rows: 200px;
+    /* grid-auto-rows: 200px; */
+    grid-auto-rows: minmax(200px, auto);
     gap: 20px;
     padding: 20px;
 
