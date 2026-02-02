@@ -103,7 +103,7 @@
 /*------------projects section------------*/
 
 .projects {
-    /* background: linear-gradient(123deg, #1b0021 -20%, #65007e 50%, #070009 100%); */
+
     background: linear-gradient(123deg, rgb(0, 33, 48) 0%, rgb(4, 0, 57) 50%, rgb(5, 2, 6)100%);
     color: aliceblue;
 
@@ -117,10 +117,7 @@
 
 .project-cards-holder {
     display: grid;
-    /* Create 4 equal columns */
     grid-template-columns: repeat(4, 1fr);
-    /* Automatically create rows as needed */
-    /* grid-auto-rows: 200px; */
     grid-auto-rows: minmax(200px, auto);
     gap: 20px;
     padding: 20px;
@@ -228,7 +225,6 @@
     overflow: hidden;
     padding: 20px 0;
 
-    /* Optional: Fades the text in/out at the edges */
     mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
 }
@@ -243,9 +239,9 @@
     display: flex;
     align-items: center;
     gap: 60px;
-    /* Space between words */
+
     padding-right: 60px;
-    /* MUST match the gap exactly for a perfect loop */
+
 }
 
 .skill-text {
@@ -386,12 +382,12 @@
 
     .project-cards-holder {
         grid-template-columns: 1fr;
-        /* Switch to 1 column */
+
         grid-auto-rows: auto;
-        /* Let content define height */
+
     }
 
-    /* Reset spans so they don't break the layout on mobile */
+
     .project-cards-holder a {
         grid-column: span 1;
         grid-row: span 1;
@@ -416,14 +412,14 @@
 
 /* ------- animations -------*/
 
-/* The Loop Logic */
+/* Loop Logic */
 @keyframes scroll-loop {
     from {
         transform: translateX(0);
     }
 
     to {
-        /* Moves the track by exactly one full group of text */
+
         transform: translateX(-50%);
     }
 }
