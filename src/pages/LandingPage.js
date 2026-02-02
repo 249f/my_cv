@@ -24,8 +24,12 @@ const LandingPage = () => {
 
                     <div className='buttons-holder'>
                         <div className="hero-buttons">
-                            <button>See Projects</button>
-                            <button>More Info</button>
+                            <a href='#projects'>
+                                <button>See Projects</button>
+                            </a>
+                            <a href='#skills'>
+                                <button>More Info</button>
+                            </a>
                         </div>
                     </div>
 

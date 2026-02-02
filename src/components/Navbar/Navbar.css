@@ -89,6 +89,12 @@
     transition: 0.3s ease-in-out;
 }
 
+.navbar .button-holder button:hover {
+    background-color: #e3e3e3;
+    color: #101010;
+    transition: 0.3s ease-in-out;
+}
+
 
 /* responsive design */
 
