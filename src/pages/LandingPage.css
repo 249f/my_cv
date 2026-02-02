@@ -3,6 +3,11 @@
     padding: 0;
     user-select: none;
     -webkit-user-drag: none;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
 }
 
 
