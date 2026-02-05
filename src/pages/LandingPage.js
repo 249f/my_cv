@@ -137,9 +137,13 @@ const LandingPage = () => {
                             <h1>HTML</h1>
                             <p>Advanced Level with deep understanding of syntax and accessibility.</p>
                         </div>
-                        <div className='skill-card'>
+                        <div className='skill-card-css'>
                             <h1>CSS</h1>
                             <p>Good understanding with the ability to create complex and stunning layouts and animations, while keeping it responsive with different screen sizes.</p>
+                        </div>
+                        <div className='skill-card-appwrite'>
+                            <h1>Appwrite</h1>
+                            <p>Been a heavy user of appwrite for the past year, used it in multiple projects and have a deep understanding of its features and capabilities.</p>
                         </div>
                         <div className='skill-card'>
                             <h1>JavaScript</h1>
@@ -149,10 +153,7 @@ const LandingPage = () => {
                             <h1>React.js</h1>
                             <p>Basic understanding with the ability to create simple and interactive web applications.</p>
                         </div>
-                        <div className='skill-card'>
-                            <h1>Appwrite</h1>
-                            <p>Been a heavy user of appwrite for the past year, used it in multiple projects and have a deep understanding of its features and capabilities.</p>
-                        </div>
+
 
 
 

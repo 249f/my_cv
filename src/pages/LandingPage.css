@@ -261,14 +261,16 @@
 }
 
 .skills-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    /* flex-wrap: wrap;
+    justify-content: center; */
 }
 
-.skill-card {
-    width: 200px;
-    height: 180px;
+.skills-details div {
+    /* width: 200px; */
+    /* height: 180px; */
     background-color: #1c1c1c;
     border: 2px solid #c4c4c4;
     border-radius: 10px;
@@ -410,6 +412,29 @@
 
     .skills-marquee-container {
         width: 100%;
+    }
+
+    .skills-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(200px, auto);
+    }
+
+    .skills-details div {
+
+        padding: 2px;
+
+    }
+
+    .skill-card-css {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .skill-card-appwrite {
+        grid-column: span 1;
+        grid-row: span 2;
+
     }
 
     .contact {
