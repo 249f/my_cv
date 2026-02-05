@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.jpg';
 import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
 import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit, SiWhatsapp, SiGmail, SiFacebook, SiX, SiDiscord, SiTelegram, SiInstagram, SiFigma } from '@icons-pack/react-simple-icons';
-import { FaLinkedin, FaArrowDown } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 const skills = [<SiAppwrite size={50} />, <SiHtml5 size={50} />, <SiCss size={50} />, <SiJavascript size={50} />, <SiReact size={50} />, <SiGithub size={50} />, <SiFigma size={50} />, <SiVercel size={50} />, <SiNetlify size={50} />, <SiGit size={50} />];
 
@@ -22,16 +22,6 @@ const LandingPage = () => {
                     <h1>ALi Abdellatif</h1>
                     <p>Software Engineering Student with a real world hands-on experience</p>
 
-                    <div className='buttons-holder'>
-                        <div className="hero-buttons">
-                            <a href='#projects' className='see-projects-btn'>
-                                <button>See Projects <FaArrowDown size={20} /></button>
-                            </a>
-                            <a href='#skills'>
-                                <button>More Info</button>
-                            </a>
-                        </div>
-                    </div>
 
                 </div>
 
