@@ -1,7 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
-import MyPicture from '../assets/images/myPicture.jpg';
+import MyPicture from '../assets/images/myPicture.webp';
 import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
 import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit, SiWhatsapp, SiGmail, SiFacebook, SiX, SiDiscord, SiTelegram, SiInstagram, SiFigma } from '@icons-pack/react-simple-icons';
 import { FaLinkedin } from 'react-icons/fa';
