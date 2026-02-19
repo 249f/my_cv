@@ -2,7 +2,6 @@ import React from 'react';
 import './LandingPage.css';
 import Navbar from '../components/Navbar/Navbar';
 import MyPicture from '../assets/images/myPicture.webp';
-import { CursorIcon, Building, MotorcycleIcon } from '@phosphor-icons/react';
 import { SiAppwrite, SiCss, SiGithub, SiHtml5, SiJavascript, SiReact, SiVercel, SiNetlify, SiGit, SiWhatsapp, SiGmail, SiFacebook, SiX, SiDiscord, SiTelegram, SiInstagram, SiFigma } from '@icons-pack/react-simple-icons';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -39,9 +38,7 @@ const LandingPage = () => {
                 <div className='project-cards-holder'>
 
                     <a href='https://amanak-sd.com' className='amanak-card'>
-                        <div className='icon-holder'>
-                            <Building size={30} />
-                        </div>
+
 
                         <h1> Warehouse Management Ecosystem </h1>
                         <p>
@@ -59,9 +56,7 @@ const LandingPage = () => {
                     </a>
 
                     <a href='https://design-by-drop.vercel.app' className='dbd-card'>
-                        <div className='icon-holder'>
-                            <CursorIcon size={30} />
-                        </div>
+
                         <h1> Design By Drop </h1>
                         <p>
                             built a free open source tool to help HTML CSS beginners to create simple designs without writing code, simple yet effective tool uses shapes and other HTML elements to create designs, allowing users to change colors, sizes, positions, and other properties of the elements, and export the code to use in their projects, with the ability to download a ready to use HTML file with all the styles and structure.
@@ -70,9 +65,7 @@ const LandingPage = () => {
                     </a>
 
                     <a href='https://google.com' className='Zaytooon-card'>
-                        <div className='icon-holder'>
-                            <MotorcycleIcon size={30} />
-                        </div>
+
                         <h1> Delivery System </h1>
                         <p>
                             Been a part of a team that built a completed food Delivery System, which includes a customer app, a driver app, and an admin panel.
