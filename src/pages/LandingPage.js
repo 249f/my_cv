@@ -73,13 +73,15 @@ const LandingPage = () => {
 
                     </a>
 
-                    <a href='https://google.com' className='d4-card'>
+                    <a href='https://github.com/249f' className='d4-card'>
                         <h1> Under Development </h1>
                         <p>
+                            <img src="https://3d-g.vercel.app/api/flat?user=249f" alt="2d flat graph" />
 
                         </p>
 
                     </a>
+
 
                 </div>
 
